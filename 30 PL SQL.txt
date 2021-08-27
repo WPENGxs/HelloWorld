@@ -1,0 +1,5 @@
+declare
+v_str VARCHAR2(15) := 'Hello World!';
+begin
+dbms_output.put_line(v_str);
+end;
